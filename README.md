@@ -11,6 +11,8 @@ TDPM-DIP is a framework that improves the Denoising Diffusion Probabilistic Mode
 
 ## Publicly available Dataset
 - Pokemon dataset from HugGAN Community
+- The dataset can be accessed here: https://huggingface.co/datasets/huggan/pokemon.
+
 
 ## Usage
 ### 1. Git clone or download the codes.
