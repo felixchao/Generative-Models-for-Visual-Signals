@@ -25,3 +25,6 @@ git clone https://github.com/felixchao/Generative-Models-for-Visual-Signals.git
 ## Acknowledgements
 
 This implementation is based on / inspired by:
+- [https://github.com/lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) (the DDPM repo), 
+- [https://github.com/DmitryUlyanov/deep-image-prior](https://github.com/DmitryUlyanov/deep-image-prior) (the DIP repo),
+- [https://github.com/JegZheng/truncated-diffusion-probabilistic-models](https://github.com/JegZheng/truncated-diffusion-probabilistic-models) (the TDPM repo)
