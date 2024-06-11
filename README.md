@@ -23,3 +23,5 @@ git clone https://github.com/felixchao/Generative-Models-for-Visual-Signals.git
 ## Evaluation
 
 ## Acknowledgements
+
+This implementation is based on / inspired by:
