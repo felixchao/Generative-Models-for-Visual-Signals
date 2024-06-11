@@ -6,6 +6,7 @@ TDPM-DIP is a framework that improves the Denoising Diffusion Probabilistic Mode
 
 
 ## Requirements
+- Make sure to install all the dependencies in the requirements.txt
 ```
 pip install -r requirements.txt
 ```
