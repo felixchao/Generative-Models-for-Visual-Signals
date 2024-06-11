@@ -14,9 +14,9 @@ TDPM-DIP is a framework that improves the Denoising Diffusion Probabilistic Mode
 ```
 git clone https://github.com/felixchao/Generative-Models-for-Visual-Signals.git
 ```
-### 2. Train a DDPM model
+### 2. Training a DDPM model
 
-### 3. Train a DIP model (not necessary)
+### 3. Training a DIP model (not necessary)
 
 ### 4. Training/Sampling a TDPM-DIP model
 
