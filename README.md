@@ -6,7 +6,9 @@ TDPM-DIP is a framework that improves the Denoising Diffusion Probabilistic Mode
 
 
 ## Requirements
-
+```
+pip install -r requirements.txt
+```
 
 
 ## Publicly available Dataset
@@ -25,7 +27,7 @@ git clone https://github.com/felixchao/Generative-Models-for-Visual-Signals.git
 
 ### 4. Training/Sampling a TDPM-DIP model
 
-## Evaluation
+## Evaluation and Results
 
 ## Acknowledgements
 
