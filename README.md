@@ -7,7 +7,10 @@ TDPM-DIP is a framework that improves the Denoising Diffusion Probabilistic Mode
 
 ## Requirements
 
+
+
 ## Publicly available Dataset
+- Pokemon dataset from HugGAN Community
 
 ## Usage
 ### 1. Git clone or download the codes.
