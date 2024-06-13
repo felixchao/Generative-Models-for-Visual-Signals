@@ -30,8 +30,27 @@ pip install -r requirements.txt
 git clone https://github.com/felixchao/Generative-Models-for-Visual-Signals.git
 ```
 ### 2. Training a DDPM model
+- Open the `DDPM.ipynb` Jupyter Notebook.
+- Start training DDPM model (U-Net) for your custom dataset by simply replacing `dataset_name`.
+- Push your DDPM model to HuggingFace Hub through the below method:
+```
+model.push_to_hub("your-model-name")
+noise_scheduler.push_to_hub("your-noise-scheduler-name")
+```
+- Inferencing your model through the HuggingFace pipeline:
+```
+pipeline = DDPMPipeline(unet=model, scheduler=noise_scheduler)
+images = pipeline(batch_size = {the-number-of-images}).images
+```
 
 ### 3. Training a DIP model (not necessary)
+This step isn't necessary to do, because the DIP model will always be initialized in the **TDPM-DIP from Step 4**.
+- Open the `DIP.ipynb` Jupyter Notebook.
+- Start training DIP model (U-Net) from one image.
+- You can use `show_images(images)` to inspect the denoising process in DIP.
+
+- You can use `plot_iteration_performance(time_steps, mse_losses, psnr_values, ssim_values)` to inspect the metrics during training.
+
 
 ### 4. Training/Sampling a TDPM-DIP model
 
