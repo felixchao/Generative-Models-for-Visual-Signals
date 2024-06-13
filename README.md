@@ -42,6 +42,11 @@ noise_scheduler.push_to_hub("your-noise-scheduler-name")
 pipeline = DDPMPipeline(unet=model, scheduler=noise_scheduler)
 images = pipeline(batch_size = {the-number-of-images}).images
 ```
+- Example:
+
+<p align="center">
+  <img src="assets/ddpm_images.png" width=800/>
+</p>
 
 ### 3. Training a DIP model (not necessary)
 This step isn't necessary to do, because the DIP model will always be initialized in the **TDPM-DIP from Step 4**.
