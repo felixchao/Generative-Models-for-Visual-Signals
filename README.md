@@ -68,9 +68,28 @@ This step isn't necessary to do, because the DIP model will always be initialize
 
 
 ### 4. Training/Sampling a TDPM-DIP model
+- Open the `TDPM-DIP.ipynb` Jupyter Notebook.
+- Create TDPM-DIP model and load the pre-trained DDPM that you have trained.
+- Start training and execute the algorithm.
+- Evaluate TDPM-DIP, DDPM, and DIP on different tasks.
 
 ## Evaluation and Results
-
+This report aims to demonstrate that TDPM-DIP can generate high quality faster by using
+fewer steps of reverse diffusion. The experiment uses the image dataset of Pokemon to test
+the proposed method and compare it with standalone DDPM and DIP methods. There are two
+tasks to test the TDPM-DIP method: **Image Generation** and **Image Denoising**.
+ 
+### Image Generation
+| Method  | FID  | Reverse Steps |Inference Time|
+|:-----:|:------:|:---------------:|:---------------:|
+| DDPM | 69.05 |  1000            |38s |
+| **TDPM-DIP**  | **20.12** | 110           |7s|
+### Image Denoising
+| Method   | PSNR  | SSIM | Reverse Steps |Inference Time|
+|:-----:|:------:|:---------------:|:---------------:|:----:|
+| DDPM | 13.40 | 0.369           |600 |32s|
+| DIP  | 32.12 | 0.948           |100|7s|
+| **TDPM-DIP**  | **32.63** | **0.970**           |110|7s|
 ## Acknowledgements
 
 This implementation is based on / inspired by:
