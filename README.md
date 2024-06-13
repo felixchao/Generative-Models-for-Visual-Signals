@@ -90,7 +90,7 @@ tasks to test the TDPM-DIP method: **Image Generation** and **Image Denoising**.
 </div>
 
 <p align="center">
-  <img src="assets/image_generation.png" width=400 />
+  <img src="assets/image_generation.png" width=550 />
 </p>
 
 ### Image Denoising
@@ -106,7 +106,7 @@ tasks to test the TDPM-DIP method: **Image Generation** and **Image Denoising**.
 
 
 <p align="center">
-  <img src="assets/image_denoising.png" width=500 />
+  <img src="assets/image_denoising.png" width=550 />
 </p>
 
 ## Acknowledgements
