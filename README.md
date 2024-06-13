@@ -48,8 +48,18 @@ This step isn't necessary to do, because the DIP model will always be initialize
 - Open the `DIP.ipynb` Jupyter Notebook.
 - Start training DIP model (U-Net) from one image.
 - You can use `show_images(images)` to inspect the denoising process in DIP.
+- Example:
+
+<p align="center">
+  <img src="assets/DIP.png" width=800/>
+</p>
 
 - You can use `plot_iteration_performance(time_steps, mse_losses, psnr_values, ssim_values)` to inspect the metrics during training.
+- Example:
+
+<p align="center">
+  <img src="assets/metrics.png" width=400 />
+</p>
 
 
 ### 4. Training/Sampling a TDPM-DIP model
