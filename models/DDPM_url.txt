@@ -1,0 +1,2 @@
+ddpm-pokemon-64-full-steps: https://huggingface.co/FelixChao/ddpm-pokemon-64-full-steps
+ddpm-pokemon-64-cosine: https://huggingface.co/FelixChao/ddpm-pokemon-64-cosine
