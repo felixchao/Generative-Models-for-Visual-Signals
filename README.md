@@ -80,16 +80,35 @@ the proposed method and compare it with standalone DDPM and DIP methods. There a
 tasks to test the TDPM-DIP method: **Image Generation** and **Image Denoising**.
  
 ### Image Generation
+<div align="center">
+  
 | Method  | FID  | Reverse Steps |Inference Time|
 |:-----:|:------:|:---------------:|:---------------:|
 | DDPM | 69.05 |  1000            |38s |
 | **TDPM-DIP**  | **20.12** | 110           |7s|
+
+</div>
+
+<p align="center">
+  <img src="assets/image_generation.png" width=400 />
+</p>
+
 ### Image Denoising
+<div align="center">
+  
 | Method   | PSNR  | SSIM | Reverse Steps |Inference Time|
 |:-----:|:------:|:---------------:|:---------------:|:----:|
 | DDPM | 13.40 | 0.369           |600 |32s|
 | DIP  | 32.12 | 0.948           |100|7s|
 | **TDPM-DIP**  | **32.63** | **0.970**           |110|7s|
+  
+</div>
+
+
+<p align="center">
+  <img src="assets/image_denoising.png" width=500 />
+</p>
+
 ## Acknowledgements
 
 This implementation is based on / inspired by:
