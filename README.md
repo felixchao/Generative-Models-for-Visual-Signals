@@ -8,6 +8,10 @@ TDPM-DIP is a framework that improves the Denoising Diffusion Probabilistic Mode
   <img src="assets/framework.png" width=600 />
 </p>
 
+In the TDPM-DIP framework, the truncated step $T_{trunc}$ can be adjusted to any number you like. For
+the **quick reverse process**, we can select the fewer truncated steps for computational efficiency by accelerating the DDPM reverse process.
+On the other hand, for **higher truncated steps**, the generated images can be more creative and interesting due to the high noisy level, and it’s useful for image generation or style translation tasks. 
+
 ## Requirements
 - Make sure to install all the dependencies in the requirements.txt
 ```
