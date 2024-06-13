@@ -45,7 +45,7 @@ images = pipeline(batch_size = {the-number-of-images}).images
 - Example:
 
 <p align="center">
-  <img src="assets/ddpm_images.png" width=800/>
+  <img src="assets/ddpm_images.png" width=700/>
 </p>
 
 ### 3. Training a DIP model (not necessary)
